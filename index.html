@@ -1,1 +1,249 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lam Space</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100">
+    <!-- Swiper.js-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Universal Parallax-->
+    <link rel="stylesheet" href="vendor/universal-parallax/universal-parallax.css">
+    <!-- Animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/source/animate.css">
+    <!-- Theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light py-4 py-lg-0 fixed-top bg-white border-bottom">
+      <div class="container"><a class="navbar-brand font-serif text-uppercase h6 text-primary fw-bold mb-0" href="#intro">Lam Space</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#intro">Intro</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#work">My Work</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- INTRO SECTION-->
+    <section class="intro bg-cover bg-center d-flex align-items-center dark-overlay" id="intro" style="background-image: url(img/home.jpg)">
+      <div class="overlay-content text-white w-100">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-11 mx-auto">
+              <div class="pb-5 mb-lg-5 wow fadeInDown"><img src="img/logo-big.png" alt="..." width="130"></div>
+              <h1 class="intro-heading mb-5 wow fadeInDown" data-wow-delay="0.3s">您好, Hello, hola, नमस्ते !</h1>
+              <p class="h3 intro-text fw-normal wow fadeInUp" data-wow-delay="0.6s">Welcome to Lam Space.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  /- END INTRO SECTION-->
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="container">
+        <header class="mb-5 text-center">
+          <h2 class="heading">About me</h2>
+        </header>
+        <div class="row gy-4">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+            <p>I am a web development engineer who loves innovation and pursues the ultimate, focusing on creating a user-friendly digital experience.</p>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="mb-3">
+              <p class="text-muted fw-light mb-0">Java</p>
+              <div class="progress" style="height: 30px">
+                <div class="progress-bar opacity-6" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /- END ABOUT SECTION -->
+
+    <!-- REFERENCES SECTION -->
+    <section id="work">
+      <div class="container"> 
+        <header class="mb-5 text-center">
+          <div class="row mb-5 wow fadeInUp">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="heading">My work</h2>
+            </div>
+          </div>
+          <p class="lead wow fadeInUp" data-wow-delay="0.1s">I have written some Java projects before, and now I will show you these projects</p>
+        </header>
+        <div class="filter mb-4 wow fadeInUp" data-wow-delay="0.25s">
+          <button class="filter-btn" type="button" data-filter=".proxy">Proxy</button>
+          <button class="filter-btn" type="button" data-filter=".snowflake">Snow Flake</button>
+          <button class="filter-btn" type="button" data-filter=".webdesign">Web Design</button>
+          <button class="filter-btn" type="button" data-filter=".msp">MeiliSearch-Plus</button>
+          <button class="filter-btn" type="button" data-filter=".lock">Lock</button>
+        </div>
+        <div class="row gy-4" id="content">
+          <div class="col-lg-3 col-md-6 mix wow fadeInUp webdesign" data-wow-delay="0s" data-order="1"><a class="d-block work-item" href="#" data-bs-toggle="modal" data-bs-target="#item1Modal"> <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="NewProxy">
+            <div class="overlay">
+              <h3 class="work-heading">NewProxy</h3>
+              <p>A tool to generate dynamic proxy for interfaces and class. following the concept of JDK's built in Proxy.</p>
+            </div></a></div>
+            <div class="col-lg-3 col-md-6 mix wow fadeInUp seo" data-wow-delay="0.1s" data-order="2"><a class="d-block work-item" href="#" data-bs-toggle="modal" data-bs-target="#item2Modal"> <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="SnowFlake">
+              <div class="overlay">
+                <h3 class="work-heading">SnowFlake</h3>
+                <p>A simple plugin for spring-based application</p>
+              </div></a></div>
+            <div class="col-lg-3 col-md-6 mix wow fadeInUp marketing" data-wow-delay="0.2s" data-order="3"><a class="d-block work-item" href="#" data-bs-toggle="modal" data-bs-target="#item3Modal"> <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="Maria-Web">
+              <div class="overlay">
+                <h3 class="work-heading">Maria-Web</h3>
+                <p>A microservice application build on Spring Cloud Alibaba on Docker platform.</p>
+              </div></a></div>
+            <div class="col-lg-3 col-md-6 mix wow fadeInUp marketing" data-wow-delay="0.30000000000000004s" data-order="4"><a class="d-block work-item" href="#" data-bs-toggle="modal" data-bs-target="#item4Modal"> <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="MeiliSearch-Plus">
+              <div class="overlay">
+                <h3 class="work-heading">MeiliSearch-Plus</h3>
+                <p>MeiliSearch-Plus is an enhanced component for Java SDK of MeiliSearch, aiming to offer enhancement without modification.</p>
+              </div></a></div>
+            <div class="col-lg-3 col-md-6 mix wow fadeInUp webdesign" data-wow-delay="0.4s" data-order="5"><a class="d-block work-item" href="#" data-bs-toggle="modal" data-bs-target="#item5Modal"> <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="easylock">
+              <div class="overlay">
+                <h3 class="work-heading">EasyLock</h3>
+                <p>EasyLock aims to provide fundamental usage of distributed lock, based on Netty. which makes it easy for access control of shared resources.</p>
+              </div></a></div>
+        </div>
+      </div>
+      <!--  Modal -->
+      <div class="modal fade" id="item1Modal" tabindex="-1" aria-labelledby="item1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
+              <h2 class="heading mb-5" id="item1ModalLabel">NewProxy</h2>
+              <p>NewProxy is a tool to generate Dynamic Proxy class for interfaces, and class also.</p>
+              <p>It follows the concept of JDK's built-in Proxy class for generating dynamic proxy classes, which involves creating a proxy class for the target interfaces and then invoking its methods, returning the results to the caller. In contrast to the JDK's Proxy class, dynamic proxy class generated by NewProxy does not extend NewProxy itself; instead, it merely implements the specified interfaces (including extra InvocationDispatcher interface) and extend class, significantly reducing the complexity of the generated proxy classes.</p>
+              <p>NewProxy can create dynamic proxy class for public interfaces with 'public final' modifiers, and 'final' modifier for non-public interfaces. It can also check if specified target class is a proxy class generated by NewProxy or not, and acquire the invocation interceptor instance of a proxy instance.</p>
+              <a class="btn btn-outline-primary me-3 my-1" href="https://github.com/LamSpace/newproxy"> <i class="fas fa-globe-americas me-2"></i>Visit on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Modal -->
+      <div class="modal fade" id="item2Modal" tabindex="-1" aria-labelledby="item2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
+              <h2 class="heading mb-5" id="item2ModalLabel">SnowFlake</h2>
+              <p>A simple plugin for spring-based application.</p>
+              <p>SnowFlake is a plugin based on spring application, which can generate a global unique id for each record in your database, even in distributed application. This plugin implements the SnowFlake algorithm proposed by Twitter in a spring-boot-starter manner such that user(s) can use this plugin in his/her spring-boot application easily.</p>
+              <a class="btn btn-outline-primary me-3 my-1" href="https://github.com/LamSpace/SnowFlake"> <i class="fas fa-globe-americas me-2"></i>Visit on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Modal -->
+      <div class="modal fade" id="item3Modal" tabindex="-1" aria-labelledby="item3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
+              <h2 class="heading mb-5" id="item3ModalLabel">Maria-Web</h2>
+              <p>Maria Web is a microservice application built on Spring Cloud Alibaba, aimed at serving as a scaffold for quickly building applications</p>
+              <p>Maria Web contains several modules: dashboard, gateway, authentication, system, socket, job, log and UI.</p>
+              <p>Maria Web can be deployed with just one click using Docker Compose.</p>
+              <a class="btn btn-outline-primary me-3 my-1" href="https://github.com/LamSpace/maria-web"> <i class="fas fa-globe-americas me-2"></i>Visit on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Modal -->
+      <div class="modal fade" id="item4Modal" tabindex="-1" aria-labelledby="item4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
+              <h2 class="heading mb-5" id="item4ModalLabel">MeiliSearch-Plus</h2>
+              <p>MeiliSearch-Plus is an enhanced component for Java SDK of MeiliSearch, aiming to offer enhancement without modification.</p>
+              <p>MeiliSearch-Plus provides enhanced approaches for CURD of MeiliSearch, in the spirit of Mybatis-Plus. Using MeiliSearch-Plus you can easily, for example: CURD of index, Update primary key of index, Update settings of index, etc.</p>
+              <a class="btn btn-outline-primary me-3 my-1" href="https://github.com/LamSpace/meilisearch-plus"> <i class="fas fa-globe-americas me-2"></i>Visit on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Modal -->
+      <div class="modal fade" id="item5Modal" tabindex="-1" aria-labelledby="item5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
+              <h2 class="heading mb-5" id="item5ModalLabel">EasyLock</h2>
+              <p>EasyLock aims to provide fundamental usage of distributed lock, based on Netty. which makes it easy for access control of shared resources.</p>
+              <p><pre>EasyLock, easy to lock.</pre></p>
+              <p>Although it is not a mature framework, I hope it can still inspire you to learn how to use Netty.</p>
+              <a class="btn btn-outline-primary me-3 my-1" href="https://github.com/LamSpace/easylock"> <i class="fas fa-globe-americas me-2"></i>Visit on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /- END REFERENCES SECTION -->
+    
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="container wow bounceIn">
+        <header class="text-center mb-5">
+          <h2 class="heading">Contact me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
+              <p>Feel free to email me @<a href="mailto:lemonlovepy@163.com">lemonlovepy@163.com</a> or <a href="mailto:lamtong@aliyun.com">lamtong@aliyun.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /- END CONTACT SECTION -->
+    <footer class="py-5 bg-dark text-light">
+      <div class="container py-3">
+        <div class="row gy-3 mb-4 text-center align-items-center">
+          <div class="col-md-12 text-lg-mid">
+            <p class="mb-0 font-serif text-sm">© 2024 Lam Tong. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="vendor/universal-parallax/universal-parallax.min.js"></script>
+    <script src="vendor/wow.js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js"></script>
+    <script src="vendor/mixitup/mixitup.js"></script>
+    <script src="js/theme.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
